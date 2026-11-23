@@ -1,0 +1,215 @@
+{
+ "Fiddle Leaf Fig": {
+  "sunlight": [
+   "bright_indirect"
+  ],
+  "environment": "indoor",
+  "space": [
+   "room"
+  ],
+  "climate": [
+   "warm_humid",
+   "mild"
+  ],
+  "watering": "moderate",
+  "maintenance": "advanced",
+  "sizeCm": {
+   "min": 90,
+   "max": 180
+  },
+  "petSafety": {
+   "status": "toxic",
+   "source": "ASPCA Toxic and Non-Toxic Plants list",
+   "notes": ""
+  },
+  "flowering": "no",
+  "decorativeFoliage": "yes",
+  "edible": "no",
+  "soilNotes": "Well-draining potting mix; never leave sitting in water.",
+  "careTips": [
+   "Keep out of drafts and avoid moving it often",
+   "Water when the top 2-3 cm of soil is dry"
+  ],
+  "scientificName": "Ficus lyrata"
+ },
+ "Snake Plant": {
+  "sunlight": [
+   "low",
+   "indirect",
+   "bright_indirect"
+  ],
+  "environment": "both",
+  "space": [
+   "small",
+   "room",
+   "balcony"
+  ],
+  "climate": [
+   "hot_tropical",
+   "warm_humid",
+   "mild"
+  ],
+  "watering": "rare",
+  "maintenance": "beginner",
+  "sizeCm": {
+   "min": 30,
+   "max": 120
+  },
+  "petSafety": {
+   "status": "toxic",
+   "source": "ASPCA Toxic and Non-Toxic Plants list",
+   "notes": ""
+  },
+  "flowering": "no",
+  "decorativeFoliage": "yes",
+  "edible": "no",
+  "soilNotes": "Gritty, fast-draining mix; drainage holes essential.",
+  "careTips": [
+   "Let soil dry completely between waterings",
+   "Water less in cooler months"
+  ],
+  "scientificName": "Dracaena trifasciata"
+ },
+ "Monstera Deliciosa": {
+  "sunlight": [
+   "bright_indirect"
+  ],
+  "environment": "indoor",
+  "space": [
+   "room",
+   "balcony"
+  ],
+  "climate": [
+   "hot_tropical",
+   "warm_humid"
+  ],
+  "watering": "moderate",
+  "maintenance": "low",
+  "sizeCm": {
+   "min": 60,
+   "max": 200
+  },
+  "petSafety": {
+   "status": "toxic",
+   "source": "ASPCA Toxic and Non-Toxic Plants list",
+   "notes": ""
+  },
+  "flowering": "no",
+  "decorativeFoliage": "yes",
+  "edible": "no",
+  "soilNotes": "Chunky, airy mix with good drainage.",
+  "careTips": [
+   "Check soil moisture before watering",
+   "Give it a moss pole as it grows"
+  ],
+  "scientificName": "Monstera deliciosa"
+ },
+ "Echeveria Succulent": {
+  "sunlight": [
+   "bright_indirect",
+   "direct"
+  ],
+  "environment": "both",
+  "space": [
+   "small",
+   "balcony",
+   "garden"
+  ],
+  "climate": [
+   "warm_humid",
+   "mild"
+  ],
+  "watering": "rare",
+  "maintenance": "low",
+  "sizeCm": {
+   "min": 5,
+   "max": 20
+  },
+  "petSafety": {
+   "status": "safe",
+   "source": "ASPCA Toxic and Non-Toxic Plants list",
+   "notes": ""
+  },
+  "flowering": "yes",
+  "decorativeFoliage": "yes",
+  "edible": "no",
+  "soilNotes": "Cactus/succulent mix; pot must drain freely.",
+  "careTips": [
+   "Water deeply, then let soil dry out fully",
+   "Needs several hours of bright light to keep its shape"
+  ],
+  "scientificName": "Echeveria elegans"
+ },
+ "Peace Lily": {
+  "sunlight": [
+   "low",
+   "indirect"
+  ],
+  "environment": "indoor",
+  "space": [
+   "small",
+   "room"
+  ],
+  "climate": [
+   "hot_tropical",
+   "warm_humid"
+  ],
+  "watering": "frequent",
+  "maintenance": "low",
+  "sizeCm": {
+   "min": 30,
+   "max": 90
+  },
+  "petSafety": {
+   "status": "toxic",
+   "source": "ASPCA Toxic and Non-Toxic Plants list",
+   "notes": ""
+  },
+  "flowering": "yes",
+  "decorativeFoliage": "yes",
+  "edible": "no",
+  "soilNotes": "Moisture-retentive but draining mix.",
+  "careTips": [
+   "Keep soil evenly moist; leaves droop when thirsty",
+   "Avoid direct midday sun"
+  ],
+  "scientificName": "Spathiphyllum wallisii"
+ },
+ "ZZ Plant": {
+  "sunlight": [
+   "low",
+   "indirect",
+   "bright_indirect"
+  ],
+  "environment": "indoor",
+  "space": [
+   "small",
+   "room"
+  ],
+  "climate": [
+   "hot_tropical",
+   "warm_humid",
+   "mild"
+  ],
+  "watering": "rare",
+  "maintenance": "beginner",
+  "sizeCm": {
+   "min": 30,
+   "max": 90
+  },
+  "petSafety": {
+   "status": "toxic",
+   "source": "ASPCA Toxic and Non-Toxic Plants list",
+   "notes": ""
+  },
+  "flowering": "no",
+  "decorativeFoliage": "yes",
+  "edible": "no",
+  "soilNotes": "Well-draining mix; tubers rot if kept wet.",
+  "careTips": [
+   "Water only when soil is completely dry",
+   "Tolerates low light but grows slowly there"
+  ],
+  "scientificName": "Zamioculcas zamiifolia"
+ }
+}

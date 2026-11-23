@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base layer: sets the quiet, disciplined foundation the rest of the
+   UI sits on top of. Only the signature botanical line motif and the
+   gold accent are allowed to be "loud" anywhere in the app. */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: theme('colors.cream');
+  }
+
+  h1, h2, h3, h4 {
+    font-family: theme('fontFamily.display');
+    color: theme('colors.ink');
+    letter-spacing: -0.01em;
+  }
+
+  ::selection {
+    background-color: theme('colors.gold');
+    color: theme('colors.paper');
+  }
+
+  /* Visible keyboard focus everywhere — accessibility floor, not optional. */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid theme('colors.gold');
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* Eyebrow label used above section headings site-wide, in the mono
+     utility face — a small, consistent structural device. */
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.2em] text-moss;
+  }
+
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-10;
+  }
+}
